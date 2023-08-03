@@ -283,6 +283,11 @@ shelly:
   coap_port: 12345
 ```
 
+## Device temperature
+
+For selected devices the integration provides internal Device temperature.
+According to Shelly "Everything under 85 degre is considered normal, 85-95 degree are high and above 95 degree is very high". [source](https://www.facebook.com/groups/ShellyIoTCommunitySupport/permalink/6202158209883491/) 
+
 ## Additional info
 
 Shelly devices rely on [SNTP](https://en.wikipedia.org/wiki/Network_Time_Protocol#SNTP) for features like power measurement.
